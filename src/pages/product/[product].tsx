@@ -6,8 +6,8 @@ export default function DetailProductPage() {
     console.log(query)
     return (
         <div>
-            <h1>Detail Product Page</h1>
-            <p>Product : {query.id} </p>
+            <h1 className="text-xl">Detail Product Page</h1>
+            <p>Product : {query.product} </p>
         </div>
     )
 }

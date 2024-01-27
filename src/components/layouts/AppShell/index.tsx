@@ -7,7 +7,6 @@ export default function AppShell(props: any) {
         <main>
             <Navbar/>
             {children}
-            <div>Footer</div>
         </main>
     )
 }
